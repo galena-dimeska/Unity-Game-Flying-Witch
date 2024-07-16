@@ -1,0 +1,554 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1720571049818508, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1720571049820709, "dur": 55134, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1720571049876103, "dur": 113346, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1720571049989470, "dur": 370517, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1720571050359990, "dur": 3627289, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1720571053987297, "dur": 10022, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1720571063205264, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1720571063205974, "dur": 3711, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1720571063209688, "dur": 44151, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1720571063253840, "dur": 828391, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1720571064082241, "dur": 1821596, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1720571065903838, "dur": 12534, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1720571065916924, "dur": 27, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1720571063872279, "dur": 179945, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1720571063873403, "dur": 65821, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1720571064032612, "dur": 7023, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1720571064039639, "dur": 12574, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1720571064040356, "dur": 11170, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1720571064068035, "dur": 1168, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1720571064058225, "dur": 11004, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1720571065917066, "dur": 524, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1720571064140575, "dur":2943, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720571064143527, "dur":863, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1720571064144461, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1720571064144506, "dur":445, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1720571064144972, "dur":1126, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720571064146099, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720571065879903, "dur":265, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720571065880168, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720571065880183, "dur":16, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720571065880199, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720571065880220, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720571065880221, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720571065880227, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720571065880229, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720571065880235, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720571065880240, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720571065880245, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720571065880247, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720571065880253, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720571065880255, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720571065880262, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720571065880263, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720571065880269, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720571065880283, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720571065880296, "dur":2037, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1720571064145611, "dur":574, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064146187, "dur":3481, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064149678, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1720571064149680, "dur":362, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064150048, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1720571064150052, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064163135, "dur":3785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1720571064166923, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1720571064167057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064167382, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1720571064168705, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1720571064168837, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064168894, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1720571064170322, "dur":14592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1720571064184919, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064184930, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1720571064186887, "dur":11887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":1, "ts":1720571064198779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064198787, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":1, "ts":1720571064200296, "dur":4885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064205186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064205194, "dur":1623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064206854, "dur":5164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064212026, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064212038, "dur":3646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064215731, "dur":3855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064219617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064219625, "dur":1227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064220889, "dur":5998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064226891, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064226902, "dur":2175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064229154, "dur":14292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064243451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064243459, "dur":2482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064245981, "dur":3612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064249597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064249603, "dur":3419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064253076, "dur":6536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064259618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064259627, "dur":2598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064262261, "dur":39064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064301331, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064301340, "dur":3569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064304952, "dur":3710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064308669, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064308679, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064310338, "dur":3918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064314261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064314271, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064315785, "dur":3040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064318831, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064318841, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064320227, "dur":3055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064323288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064323297, "dur":1895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064325390, "dur":3125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064328520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064328559, "dur":3011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064331608, "dur":4859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064336472, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064336481, "dur":2526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064339048, "dur":3705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064342758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064342795, "dur":2921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064345757, "dur":3793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064349557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064349567, "dur":1876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064351488, "dur":10533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064362026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064362036, "dur":3297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064365398, "dur":4179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064369581, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064369591, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064371176, "dur":4087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064375269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064375279, "dur":2322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064377642, "dur":173041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064550690, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064550702, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064551949, "dur":261655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064813611, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571064813623, "dur":3351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571064817018, "dur":205747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571065022771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571065022780, "dur":4435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1720571065027255, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1720571065027335, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571065027374, "dur":12519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1720571065039939, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1720571065039982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571065039991, "dur":6680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1720571065046714, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1720571065046752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571065046760, "dur":6082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1720571065052886, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":1, "ts":1720571065052920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571065052928, "dur":14713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":1, "ts":1720571065067682, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1720571065067718, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1720571065067725, "dur":160177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1720571065228086, "dur":651805, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720571064146281, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720571064146281, "dur":3506, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720571064149788, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1720571064150122, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720571064164113, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1720571064165552, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1720571064165679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720571064165689, "dur":1512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1720571064167249, "dur":15315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1720571064182568, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720571064182580, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1720571064183579, "dur":24194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720571064207779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720571064207864, "dur":8023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720571064215941, "dur":3234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720571064219181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720571064219189, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720571064221027, "dur":5945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720571064226976, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720571064226984, "dur":2218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720571064229252, "dur":241624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720571064470883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720571064470894, "dur":6262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720571064477195, "dur":85030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720571064562253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720571064562263, "dur":3178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720571064565479, "dur":154520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720571064720005, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720571064720043, "dur":5349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720571064725439, "dur":1050665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720571065776109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1720571065776116, "dur":2408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1720571065778563, "dur":101327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720571064145849, "dur":425, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720571064146274, "dur":3504, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720571064149779, "dur":36286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1720571064186069, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720571064186090, "dur":3196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1720571064189350, "dur":8351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064197708, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720571064198248, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064199619, "dur":4662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064204286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720571064204296, "dur":1753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064206091, "dur":4002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064210099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720571064210106, "dur":7435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064217584, "dur":7526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064225138, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720571064225150, "dur":1753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064226951, "dur":4807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064231765, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720571064231786, "dur":1512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064233338, "dur":4108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064237452, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720571064237463, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064239786, "dur":7773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064247565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720571064247576, "dur":2103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064249723, "dur":61189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064310917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720571064310926, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064312676, "dur":3301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064315983, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720571064315995, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064317865, "dur":114451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064432323, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720571064432362, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064433854, "dur":1534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064435394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720571064435405, "dur":4920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064440367, "dur":530764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064971138, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720571064971150, "dur":8332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571064979528, "dur":468976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571065448509, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1720571065448541, "dur":1829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1720571065450425, "dur":429522, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720571064145784, "dur":482, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720571064146266, "dur":3484, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720571064149750, "dur":34537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1720571064184291, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720571064184348, "dur":1737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1720571064186132, "dur":210526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720571064396663, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720571064396673, "dur":18029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720571064414741, "dur":146578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720571064561326, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720571064561337, "dur":3448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720571064564824, "dur":113937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720571064678768, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720571064678780, "dur":2361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720571064681186, "dur":59152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720571064740346, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720571064740357, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720571064741606, "dur":68185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720571064809797, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720571064809808, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720571064811189, "dur":209549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720571065020745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720571065020755, "dur":2802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720571065023597, "dur":86674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720571065110279, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720571065110289, "dur":10640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1720571065120962, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1720571065121058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720571065121065, "dur":41756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1720571065162854, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1720571065168922, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720571065168942, "dur":9062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1720571065178051, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1720571065178088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1720571065178096, "dur":13045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1720571065191170, "dur":688716, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720571064146044, "dur":238, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720571064146282, "dur":3392, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720571064149678, "dur":89524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1720571064239208, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720571064240123, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1720571064241040, "dur":3256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720571064244302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720571064244310, "dur":2118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720571064246463, "dur":2859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720571064249326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720571064249333, "dur":3936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720571064253308, "dur":4215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720571064257530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720571064257541, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720571064258826, "dur":173851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720571064432681, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720571064432690, "dur":3106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720571064435832, "dur":166344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720571064602184, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720571064602196, "dur":9116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720571064611353, "dur":54958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720571064666319, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720571064666331, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720571064668805, "dur":149988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720571064818800, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720571064818812, "dur":1274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720571064820128, "dur":57903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720571064878038, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720571064878051, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720571064879561, "dur":93678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720571064973246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720571064973257, "dur":4008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720571064977312, "dur":898454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720571065875782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1720571065875790, "dur":3984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1720571065879823, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1720571065879825, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064146412, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064146413, "dur":3364, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064149778, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1720571064150017, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064153135, "dur":4407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1720571064157598, "dur":26287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1720571064183889, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064183900, "dur":3451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1720571064187395, "dur":717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch.exe" }}
+,{ "pid":12345, "tid":6, "ts":1720571064188117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064188125, "dur":2405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch.exe" }}
+,{ "pid":12345, "tid":6, "ts":1720571064190574, "dur":86741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064277322, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064277333, "dur":5278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064282656, "dur":5304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064287968, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064287980, "dur":3247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064294593, "dur":5789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064300389, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064300427, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064301578, "dur":1435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064303018, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064303028, "dur":2252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064305320, "dur":3454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064308778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064308785, "dur":5404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064314229, "dur":3564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064317799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064317809, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064319309, "dur":3112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064322426, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064322438, "dur":2152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064324630, "dur":3692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064328329, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064328340, "dur":2101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064330482, "dur":4932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064335421, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064335431, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064336900, "dur":3400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064340305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064340314, "dur":1874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064342227, "dur":3257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064345489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064345499, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064346871, "dur":3308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064350183, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064350190, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064351609, "dur":3639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064355254, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064355265, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064356965, "dur":3250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064360222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064360232, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064361817, "dur":5686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064367509, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064367519, "dur":7715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064375283, "dur":136152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064511443, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064511454, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064512754, "dur":273912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064786673, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571064786683, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571064788377, "dur":270378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571065058762, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571065058772, "dur":16894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1720571065075711, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1720571065075769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571065075779, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1720571065077057, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1720571065077166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571065077174, "dur":19093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1720571065096311, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1720571065096350, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571065096364, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1720571065098412, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1720571065098540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571065098550, "dur":75340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1720571065173936, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1720571065173973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571065173983, "dur":4043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1720571065178066, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1720571065178109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571065178116, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1720571065179226, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1720571065179320, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1720571065179325, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1720571065180519, "dur":699386, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571064146614, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571064146615, "dur":3167, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571064149785, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1720571064150128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571064171890, "dur":2059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1720571064173998, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1720571064174205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571064174216, "dur":1925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1720571064176197, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1720571064176410, "dur":103, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571064176523, "dur":3209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1720571064180048, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1720571064180191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571064180202, "dur":1985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1720571064183042, "dur":8522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064191570, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571064192266, "dur":2237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064194541, "dur":3323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064197870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571064198218, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064200017, "dur":4936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064204965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571064204973, "dur":3085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064208099, "dur":18863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064226967, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571064226976, "dur":1802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064228816, "dur":3161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064231981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571064231988, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064233607, "dur":4156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064237767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571064237773, "dur":2054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064239871, "dur":3519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064243397, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571064243408, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064245251, "dur":3689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064248946, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571064248977, "dur":2664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064251682, "dur":4050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064255738, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571064255751, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064257162, "dur":1389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064258555, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571064258589, "dur":3839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064262685, "dur":131286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064393979, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571064394002, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064395686, "dur":81868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064477559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571064477569, "dur":9327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064486953, "dur":195090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064682048, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571064682060, "dur":5501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571064687609, "dur":428738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571065116352, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571065116361, "dur":6313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1720571065122701, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1720571065122730, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571065122735, "dur":5854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1720571065128636, "dur":4382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1720571065133027, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571065133038, "dur":2561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1720571065135626, "dur":7807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1720571065143440, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571065143452, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1720571065144467, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1720571065144508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571065144515, "dur":13013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1720571065157565, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1720571065157593, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571065157599, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1720571065165110, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1720571065168931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571065168940, "dur":9118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1720571065178098, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1720571065178221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1720571065178227, "dur":20510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1720571065198758, "dur":681134, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064147057, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064147058, "dur":2691, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064149750, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1720571064149887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064154022, "dur":3514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1720571064157603, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1720571064157766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064158213, "dur":1657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1720571064159912, "dur":25724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1720571064185641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064185650, "dur":2653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1720571064188349, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1720571064188498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064189096, "dur":6757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1720571064195898, "dur":3493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064199397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064199448, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064200971, "dur":2861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064203839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064203850, "dur":2477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064206371, "dur":3505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064209884, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064209897, "dur":5820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064215771, "dur":3328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064219106, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064219118, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064220556, "dur":6460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064227021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064227028, "dur":2449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064229523, "dur":2919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064232447, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064232457, "dur":1305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064233804, "dur":3776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064237585, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064237594, "dur":2258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064239888, "dur":3559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064243451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064243459, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064245130, "dur":4357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064249491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064249501, "dur":4464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064254002, "dur":4542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064258550, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064258587, "dur":2615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064261241, "dur":1532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064262778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064262787, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064264226, "dur":68000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064332231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064332241, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064333496, "dur":3498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064336997, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064337005, "dur":2316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064339361, "dur":3444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064342809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064342818, "dur":2376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064345231, "dur":4426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064349662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064349670, "dur":3192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064352896, "dur":3386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064356295, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064356332, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064357762, "dur":5153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064362920, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064362932, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064364388, "dur":3284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064367676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064367684, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064368915, "dur":6406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064375325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064375332, "dur":2221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064377594, "dur":3190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064380791, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064380802, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064381970, "dur":315030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064697008, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571064697019, "dur":2365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571064699423, "dur":1081916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571065781345, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1720571065781356, "dur":3879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Downloads/Flying Witch/Flying witch_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1720571065785288, "dur":94597, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1720571065884233, "dur":2557, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1720571065917705, "dur": 767, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1720571065916909, "dur": 1584, "ph": "X", "name": "Write chrome-trace events", "args": {} },
